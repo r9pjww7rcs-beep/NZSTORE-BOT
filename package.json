@@ -6,5 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+  "@whiskeysockets/baileys": "latest",
+  "pino": "latest",
+  "qrcode-terminal": "latest"
+}
 }
