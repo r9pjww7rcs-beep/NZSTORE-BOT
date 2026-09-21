@@ -1,0 +1,10 @@
+{
+  "name": "nzstore-bot",
+  "version": "1.0.0",
+  "description": "NZSTORE WhatsApp bot for reseller management, catalog, orders, stock, and sales tracking.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
