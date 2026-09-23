@@ -1,6 +1,6 @@
 const {default:makeWASocket,useMultiFileAuthState,DisconnectReason}=require('@whiskeysockets/baileys');
 const pino=require('pino');
-const handler=require('../handlers/message');
+const handler=require('../message');
 
 async function connectWhatsApp(){
  const {state,saveCreds}=await useMultiFileAuthState('./session');
